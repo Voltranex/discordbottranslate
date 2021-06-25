@@ -1,6 +1,6 @@
 # Translate command with Google Translate API
 
-Discord bot translate command with Google Translate supported all languages.
+Discord bot translate command with Google Translate supported all languages. Input text language is detecting automatically.
 
 # Correct Usage
 
