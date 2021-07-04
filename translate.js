@@ -1,5 +1,6 @@
-const ISO6391 = require('iso-639-1');
-const translate = require('@iamtraction/google-translate');
+// Don't forget to install required npm packages. You have to integrate the code to your main file or command handler.
+const ISO6391 = require('iso-639-1'); // npm i iso-639-1
+const translate = require('@iamtraction/google-translate'); //npm i @iamtraction/google-translate
 const prefix="your prefix";
 async function trn(message) {
     const args = message.content.slice(prefix.length).trim().split(/ +/g)
